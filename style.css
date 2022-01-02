@@ -1,0 +1,75 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://media.istockphoto.com/illustrations/scary-santa-and-his-granddaughter-with-bag-of-gifts-illustration-id1086817176?k=20&m=1086817176&s=612x612&w=0&h=DpRLMH0GeabogRJ89DJsCvshJDTRKgKakxg26Pz5YZM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Rubik Beastly', cursive;
+}
+
+body #hohoho {
+    display: none;
+}
+
+body.christmas {
+    background-image: url(https://media.istockphoto.com/photos/christmas-rustic-background-with-wooden-planks-picture-id1035497434?k=20&m=1035497434&s=612x612&w=0&h=F18Ik2DdpcoQwt5QaFWmj4Oj-cEdyK9KGov7hh4-vA4=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.christmas #greeting, body.christmas #fright {
+    display: none;
+}
+
+body.christmas #btn {
+    display: none;
+}
+
+body.christmas #hohoho {
+    display: block;
+    color: var(--gold);
+}
+
+p {
+    font-size: 30px;
+    color: darkred;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    background-color: var(--bright-red);
+    color: var(--snow);
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: green;
+}
