@@ -25,6 +25,7 @@ body {
     background-image: url(https://media.istockphoto.com/illustrations/scary-santa-and-his-granddaughter-with-bag-of-gifts-illustration-id1086817176?k=20&m=1086817176&s=612x612&w=0&h=DpRLMH0GeabogRJ89DJsCvshJDTRKgKakxg26Pz5YZM=);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     font-family: 'Rubik Beastly', cursive;
 }
@@ -54,7 +55,7 @@ body.christmas #hohoho {
 
 p {
     font-size: 30px;
-    color: darkred;
+    color: orange;
 }
 
 button {
@@ -64,7 +65,7 @@ button {
     width: 10rem;
     height: 3rem;
     font-size: 20px;
-    background-color: var(--bright-red);
+    background-color: #ff9f28;
     color: var(--snow);
     border-radius: 10px;
 }
